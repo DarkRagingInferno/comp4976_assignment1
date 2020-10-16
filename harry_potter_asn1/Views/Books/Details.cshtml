@@ -1,0 +1,57 @@
+
+@{
+  ViewData["Title"] = "Books Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+  <hr />
+  <dl class="column">
+        <dt class="col-sm-2">
+            Title
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.title
+        </dd>
+        <dt class="col-sm-2">
+            Small Thumbnail
+        </dt>
+        <dd class=<col-sm-10>
+            <img src='@ViewBag.Pseudo.smallThumbnail' />
+        </dd>
+        <dt class="col-sm-2">
+            Authors
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.authors
+        </dd>
+        <dt class="col-sm-2">
+            Publishers
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.publishers
+        </dd>
+        <dt class="col-sm-2">
+            Published Date
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.publishedDate
+        </dd>
+        <dt class="col-sm-2">
+            description
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.description
+        </dd>
+        <dt class="col-sm-2">
+            ISBN_10
+        </dt>
+        <dd class=<col-sm-10>
+            @ViewBag.Pseudo.ISBN_10
+        </dd> 
+  </dl>
+</div>
+<div>
+  <a asp-action="Index" class="btn btn-primary">&lt;&lt; Back to List</a>
+</div>
