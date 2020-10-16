@@ -25,36 +25,17 @@ public class BooksController : Controller {
     _clientFactory = clientFactory;
   }
 
-// HttpClient client = new HttpClient();
-// public async Task<string> GetResponseString() {
-//     var request = "https://www.googleapis.com/books/v1/volumes?q=harry+potter";
-//     var response = await client.GetAsync(request);
-//     var content = await response.Content.ReadAsStringAsync();
-//     return content;
-// }
   public async Task<IActionResult> Index()
   {
     HttpClient client = new HttpClient();
     var request = "https://www.googleapis.com/books/v1/volumes?q=harry+potter";
     var response = await client.GetAsync(request);
 
-    // var content = await response.Content.ReadAsStringAsync();
 
-    // var message = new HttpRequestMessage();
-    // message.Method = HttpMethod.Get;
-    // message.RequestUri = new Uri($"{BASE_URL}api/Books");
-    // message.Headers.Add("Accept", "application/json");
-
-    // var client = _clientFactory.CreateClient();
-
-    // var response = await client.SendAsync(message);
-
-    // Console.WriteLine(response);
 
     if (response.IsSuccessStatusCode) 
     {
         var content = await response.Content.ReadAsStringAsync();
-        // Console.WriteLine(content);
 
         dynamic myList = JObject.Parse(content);
         var items = myList.items;
@@ -65,13 +46,14 @@ public class BooksController : Controller {
             newBook.title = item.volumeInfo.title;
             newBook.smallThumbnail = item.volumeInfo.imageLinks.smallThumbnail;
             newBook.authors = item.volumeInfo.authors.ToString();
-            newBook.publishers = item.volumeInfo.publishers;
-            newBook.publishedDate = item.volumeInfo.publisedDate;
+            newBook.publisher = item.volumeInfo.publisher;
+            newBook.publishedDate = item.volumeInfo.publishedDate;
             newBook.description = item.volumeInfo.description;
             newBook.ISBN_10 = item.volumeInfo.industryIdentifiers[1].indentifier;
 
             books.Add(newBook);
         }
+
     } 
     else 
     {
@@ -82,14 +64,18 @@ public class BooksController : Controller {
     return View(books);
   }
 
-  public async Task<IActionResult> Details(string title, string smallThumbnail, string authors, string publishers, 
+  public async Task<IActionResult> Details(string title, string smallThumbnail, string authors, string publisher, 
                                             string publishedDate,  string description, string ISBN_10) 
 {   
+
+  Console.Write(publishedDate);
+  Console.Write(publisher);
+
     Books pseudoBook = new Books();
     pseudoBook.title = title;
     pseudoBook.smallThumbnail = smallThumbnail;
     pseudoBook.authors = authors;
-    pseudoBook.publishers = publishers;
+    pseudoBook.publisher = publisher;
     pseudoBook.publishedDate = publishedDate;
     pseudoBook.description = description;
     pseudoBook.ISBN_10 = ISBN_10;

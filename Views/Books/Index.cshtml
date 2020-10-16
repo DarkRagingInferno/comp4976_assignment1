@@ -15,7 +15,7 @@
                     asp-route-title="@item.title"
                     asp-route-smallThumbnail="@item.smallThumbnail"
                     asp-route-authors="@item.authors"
-                    asp-route-publishers="@item.publishers"
+                    asp-route-publisher="@item.publisher"
                     asp-route-publishedDate="@item.publishedDate"
                     asp-route-description="@item.description"
                     asp-route-ISBN_10="@item.ISBN_10"
@@ -26,6 +26,6 @@
       }
   </table>
 </div>
-<li class="nav-item">
-  <a class="nav-link text-dark" asp-area="" asp-controller="Books" asp-action="Index">Books</a>
+@* <li class="nav-item">
+  <a class="nav-link text-dark" asp-area="" asp-controller="Books" asp-action="Index">Books</a> *@
 </li>
