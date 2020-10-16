@@ -1601,11 +1601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\harry_potter_asn1.csproj",
+      "projectUniqueName": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1.csproj",
       "projectName": "harry_potter_asn1",
-      "projectPath": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\harry_potter_asn1.csproj",
+      "projectPath": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1.csproj",
       "packagesPath": "C:\\Users\\JVBPo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\obj\\",
+      "outputPath": "C:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
