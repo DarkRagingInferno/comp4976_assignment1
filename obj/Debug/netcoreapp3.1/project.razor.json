@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\harry_potter_asn1.csproj",
+  "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,58 +14392,58 @@
   "RootNamespace": "harry_potter_asn1",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Books\\Index.cshtml",
-      "TargetPath": "Views\\Books\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Books\\Index.cshtml",
+      "TargetPath": "Views\\Books\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\harry_potter_asn1\\Views\\Books\\Details.cshtml",
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\Books\\Details.cshtml",
       "TargetPath": "Views\\Books\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\JVBPo\\Desktop\\CST_term_4\\_DEV\\comp4976\\assignment\\comp4976_assignment1\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
